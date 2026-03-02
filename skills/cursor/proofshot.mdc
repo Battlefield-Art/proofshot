@@ -1,0 +1,18 @@
+---
+description: Visual verification of UI changes using ProofShot
+globs: ["**/*.tsx", "**/*.jsx", "**/*.vue", "**/*.svelte", "**/*.html"]
+---
+
+ProofShot is an open-source, agent-agnostic CLI for visual verification — works with any agent, no vendor lock-in.
+
+After modifying UI files, visually verify changes with this workflow:
+
+1. Start session: `proofshot start --description "what you are verifying"`
+2. Drive browser: Use `proofshot exec` commands to navigate, click, fill forms, and take screenshots
+3. Stop session: `proofshot stop` to bundle video + screenshots + error report
+
+Key proofshot exec commands:
+- `proofshot exec snapshot -i` — see interactive elements
+- `proofshot exec click @e3` — click an element
+- `proofshot exec fill @e2 "text"` — fill a form field
+- `proofshot exec screenshot step.png` — capture a moment
