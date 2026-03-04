@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/AmElmo/proofshot/compare/v1.1.0...v1.2.0) (2026-03-04)
+
+### Features
+
+* **docs:** add Umami analytics tracking to landing page ([#14](https://github.com/AmElmo/proofshot/issues/14)) ([46abcb2](https://github.com/AmElmo/proofshot/commit/46abcb29f1a8507bc1369921cb78f3a882ffc51c))
+
 ## [1.1.0](https://github.com/AmElmo/proofshot/compare/v1.0.0...v1.1.0) (2026-03-03)
 
 ### Features
