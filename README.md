@@ -70,7 +70,7 @@ Each session produces a timestamped folder in `./proofshot-artifacts/`:
 | File | Description |
 |------|-------------|
 | `session.webm` | Video recording of the entire session |
-| `viewer.html` | Standalone interactive viewer with scrub bar timeline |
+| `viewer.html` | Standalone interactive viewer with scrub bar, timeline, and Console/Server log tabs |
 | `SUMMARY.md` | Markdown report with errors, screenshots, and video |
 | `step-*.png` | Screenshots captured at key moments |
 | `session-log.json` | Action timeline with timestamps and element data |
@@ -114,6 +114,7 @@ proofshot start --run "npm run dev" --port 3000         # Start and capture serv
 proofshot start --description "Verify checkout flow"    # Add description to report
 proofshot start --url http://localhost:3000/login       # Open specific URL
 proofshot start --headed                                # Show browser (debugging)
+proofshot start --force                                 # Override a stale session from a previous crash
 ```
 
 ### `proofshot stop`
@@ -181,7 +182,7 @@ All skills install at **user level** — no per-project configuration needed.
 The repo includes sample apps so you can see ProofShot in action without your own project.
 
 ```bash
-git clone https://github.com/proofshot/proofshot.git
+git clone https://github.com/AmElmo/proofshot.git
 cd proofshot
 npm install && npm run build && npm link
 
