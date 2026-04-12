@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/AmElmo/proofshot/compare/v1.3.5...v1.4.0) (2026-04-12)
+
+### Features
+
+* **install:** add OpenCode support ([#42](https://github.com/AmElmo/proofshot/issues/42)) ([98fcaf1](https://github.com/AmElmo/proofshot/commit/98fcaf1f06b1ac15da0dc90061c262cb5e61396a))
+
 ## [1.3.5](https://github.com/AmElmo/proofshot/compare/v1.3.4...v1.3.5) (2026-04-06)
 
 ### Bug Fixes
