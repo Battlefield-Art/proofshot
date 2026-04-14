@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/AmElmo/proofshot/compare/v1.5.0...v1.6.0) (2026-04-14)
+
+### Features
+
+* make browser launch config project-specific ([#39](https://github.com/AmElmo/proofshot/issues/39)) ([01545c3](https://github.com/AmElmo/proofshot/commit/01545c36023b59d207644eb53a62b7e2363caeb9))
+
 ## [1.5.0](https://github.com/AmElmo/proofshot/compare/v1.4.1...v1.5.0) (2026-04-14)
 
 ### Features
